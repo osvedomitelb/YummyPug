@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+/*///////////////////////// Header styles ////////////////////*/
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1170px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-top: 10px;
+    background-color: #fff;
+    color: #774E2e;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: cursive;
+    padding-right: 30px;
+}
+
+header nav ul #menu_icon {
+    display: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:visited {
+    color: #774E2e;
+}
+
+
+/*///////////////////////// Section 1 styles ////////////////////*/
+
+
+body main #section_1 {
+    width: 1170px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+body main #section_1 div {
+    width: 575px;
+    height: fit-content;
+}
+
+body main #section_1 h2 {
+    font-size: 110px;
+    text-transform: uppercase;
+    color: orange;
+    margin-top: 60px;
+}
+
+body main #section_1 div h2 span {
+    color: #774E2e;
+}
+
+body main #section_1 div p {
+    color: #774E2e;
+    margin: 30px 0;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+body main #section_1 div button {
+    background-color: #774E2e;
+    color: #fff;
+    padding: 10px;
+    border-style: none;
+    width: 200px;
+}
+
+body main #section_1 div img {
+    height: 575px;
+    width: 575px;
+}
+
+/*///////////////////////// Section 2 styles ////////////////////*/
+
+body main #section_2 {
+    background-color: #fff9ea;
+    margin: auto;
+}
+
+
+body main #section_2 h2 {
+    text-align: center;
+    color: orange;
+    font-size: 78px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: fit-content;
+    margin: auto;
+
+}
+
+body main #section_2 h2 span {
+    color: #774E2e
+}
+
+
+body main #section_2_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+body main #section_2_div div {
+    background-color: #fff;
+    text-align: center;
+    max-width: 29%;
+    width: 380px;
+    margin-bottom: 60px;
+    border-radius: 50px;
+}
+
+body main #section_2_div div h3 {
+    color: #774E2e;
+    padding: 10px 0 20px 0;
+}
+
+body main #section_2_div div p {
+    color: #774E2e;
+    padding: 0 10px 30px 10px;
+}
+
+body main #container_2 {
+    margin: 0 30px;
+}
+
+/*///////////////////////// Section 3 styles ////////////////////*/
+
+body main #section_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 50px auto;
+}
+
+body main #section_3 div {
+    width: 575px;
+}
+
+body main #section_3 div h3 {
+    color: orange;
+    font-size: 72px;
+    width: 420px;
+}
+
+body main #section_3 div h3 span {
+    color: #774E2e;
+}
+
+body main #section_3 div p {
+    color: #774E2e;
+    margin: 30px 0;
+    font-family: cursive;
+    font-size: 14px;
+    width: 420px;
+}
+
+body main #section_3 div h4 {
+    color: #774E2e;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+body main #section_3 div ul {
+    color: #774E2e;
+    font-size: 14px;
+}
+
+/*///////////////////////// Footer styles ////////////////////*/
+
+body footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #774E2e;
+    margin: auto;
+    padding: 15px;
+}
+
+body footer div img {
+    margin-right: 600px;
+}
+
+
+body footer div span {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+
+/*/////////////////////// media queries /////////////////////////*/
+
+
+
+/************************* media queries for 1440px *************************/
+
+@media screen and (max-width: 1440px) {
+
+    /*///////////////////////// Header styles ////////////////////*/
+
+    header {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        width: 90%;
+    }
+
+    header div {
+        max-width: 400px;
+    }
+
+    header nav {
+        padding-top: 10px;
+        max-width: 400px;
+    }
+
+    header img {
+        padding-top: 20px;
+    }
+
+    header nav ul {
+        font-size: 12px;
+        padding: 0;
+        margin-left: 20px;
+    }
+
+    header nav ul li {
+        padding-top: 30px;
+    }
+
+    /*///////////////////////// Section 1 styles ////////////////////*/
+
+    body main #section_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    body main #section_1 div {
+        width: 45%;
+        max-width: 400px;
+        height: fit-content;
+    }
+
+    body main #section_1 h2 {
+        font-size: 90px;
+        text-transform: uppercase;
+        color: orange;
+        margin: 0;
+    }
+
+    body main #section_1 div img {
+        height: 465px;
+        width: 400px;
+    }
+
+
+    /*///////////////////////// Section 2 styles ////////////////////*/
+
+    body main #section_2 h2 {
+        max-width: 800px;
+        font-size: 70px;
+    }
+
+    /*///////////////////////// Section 3 styles ////////////////////*/
+
+    body main #section_3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 40px;
+
+    }
+
+    body main #section_3 div {
+        max-width: 400px;
+    }
+
+    body main #section_3 div img {
+        width: 400px;
+        height: 594px;
+    }
+
+}
+
+/************************* media queries for 960px *************************/
+
+@media screen and (max-width: 960px) {
+
+    body {
+        width: 100%;
+    }
+
+    /*///////////////////////// Header styles ////////////////////*/
+
+    header {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        width: 90%;
+    }
+
+    header div {
+        max-width: 200px;
+    }
+
+    header nav {
+        max-width: 400px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 10px;
+    }
+
+    header img {
+        padding-top: 20px;
+    }
+
+    header nav ul {
+        font-size: 12px;
+        padding: 0;
+        margin-left: 20px;
+    }
+
+    header nav ul li {
+        padding-top: 30px;
+    }
+
+    /*///////////////////////// Section 1 styles ////////////////////*/
+
+    body main #section_1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+    }
+
+    body main #section_1 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    body main #section_1 h2 {
+        font-size: 90px;
+    }
+
+    body main #section_1 div button {
+        text-align: center;
+    }
+
+    /*///////////////////////// Section 2 styles ////////////////////*/
+
+    body main #section_2 h2 {
+        width: 99%;
+        font-size: 60px;
+    }
+
+
+    body main #section_2 h2 span {
+        max-width: 800px;
+        font-size: 60px;
+    }
+
+
+    body main #section_2_div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body main #section_2_div div {
+        margin: 20px;
+        min-width: 30%;
+        max-width: 300px;
+    }
+
+    body main #section_2_div #container_2 {
+        margin-bottom: 20px;
+    }
+
+    body main #section_2_div div p {
+        color: #774E2e;
+        padding: 0 10px 30px 10px;
+    }
+
+    body main #container_2 {
+        margin: 0 30px;
+    }
+
+    /*///////////////////////// Section 3 styles ////////////////////*/
+
+    body main #section_3 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+
+    }
+
+    body main #section_3 div {
+        max-width: 400px;
+    }
+
+
+    /*///////////////////////// Footer styles ////////////////////*/
+
+    body footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    body footer div img {
+        margin: auto;
+    }
+
+
+    body footer div span {
+        font-size: 12px;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+
+}
+
+
+
+/************************* media queries for 576px *************************/
+
+@media screen and (max-width: 576px) {
+
+    /*///////////////////////// Header styles ////////////////////*/
+    header {
+        width: 99%;
+        max-width: 576px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        vertical-align: middle;
+    }
+
+    header nav ul li {
+        display: none;
+    }
+
+    header nav ul #menu_icon {
+        display: block;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+    }
+
+    header div img {
+        margin-left: 30px;
+    }
+
+    /*///////////////////////// Section 1 styles ////////////////////*/
+
+    body main #section_1 {
+        max-width: 576px;
+        margin-top: 20px;
+
+    }
+
+    body main #section_1 h2 {
+        font-size: 70px;
+        text-transform: uppercase;
+        color: orange;
+        margin: 0;
+    }
+
+    body main #section_1 div img {
+        height: 300px;
+        width: 300px;
+    }
+
+    /*///////////////////////// Section 2 styles ////////////////////*/
+
+
+    body main #section_2 h2 {
+        font-size: 50px;
+    }
+
+    body main #section_2 h2 span {
+        font-size: 50px;
+    }
+
+    body main #section_2_div img {
+        width: 170px;
+        height: 150px;
+    }
+
+    body main #section_2_div div {
+        min-width: 55%;
+        width: 300px;
+        margin: 20px;
+        
+    }
+
+
+    /*///////////////////////// Section 3 styles ////////////////////*/
+
+    body main #section_3 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        vertical-align: middle;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    body main #section_3 div {
+        max-width: 320px;
+    }
+
+    body main #section_3 #div_hidden {
+        max-width: 320px;
+    }
+
+    body main #section_3 div h3 {
+        font-size: 50px;
+        max-width: 320px;
+        margin-bottom: 20px;
+    }
+
+    body main #section_3 div h3 span {
+        font-size: 50px;
+        max-width: 320px;
+    }
+
+    body main #section_3 div p {
+        margin: 0;
+        max-width: 320px;
+    }
+
+    body main #section_3 div h4 {
+        font-size: 20px;
+        max-width: 320px;
+    }
+
+    body main #section_3 div ul {
+        font-size: 10px;
+        max-width: 320px;
+    }
+
+    body main #section_3 div img {
+        margin-bottom: 20px;
+        height: 300px;
+        width: 200px;
+    }
+
+    /*///////////////////////// Footer styles ////////////////////*/
+
+    body footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    body footer div img {
+        margin: auto;
+    }
+
+    body footer div {
+        max-width: 200px;
+    }
+
+    body footer div span {
+        font-size: 10px;
+        margin: auto;
+    }
+
+}
+
+/************************* media queries for 576px *************************/
+
+@media screen and (max-width: 440px) {
+    body {
+        max-width: 250;
+    }
+
+    body main #section_1 {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
